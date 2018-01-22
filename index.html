@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <button id="btn">点击生成div元素</button>
+    <script type="text/javascript" src="box.js"></script>
+    <script type="text/javascript">
+      var oBtn = document.getElementById("btn");
+      oBtn.addEventListener('click',function(){
+        new UserBox({
+          init:true,
+          drag:true
+        });
+      })
+    </script>
+  </body>
+</html>
